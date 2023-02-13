@@ -10,4 +10,4 @@ House:
 
 House Task 2:
 
-![Screenshot (36)](https://user-images.githubusercontent.com/91942752/218441536-ba40ee53-c83e-449f-a6ff-d79a78a6e4c1.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/91942752/218441709-82f662a0-524c-4cdd-ad9e-88121c25cd7e.png)
