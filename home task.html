@@ -1,0 +1,230 @@
+<html>
+    <head>
+        <title>house</title>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            }
+            .background{
+                width: 1000px; height: 500px;
+                position:relative;
+                top: 200px; left: 300;
+                background: rgb(255, 0, 0);
+            }
+            .window1{
+                width: 100px; height: 100px;
+                outline-style: groove;
+                outline-color: gray;
+                outline-width: 8px;
+                background: gray;
+                border: 5px solid rgba(255, 255, 255, 0.863); float: left;
+                position: relative;
+                top: 200px; left: 70px;
+            }
+                .small_window1{                            
+                    width: 90px; height: 40px;
+                    outline-style: groove;
+                    outline-color: white;
+                    outline-width: 2px;
+                    background: rgb(163, 159, 159);
+                    border: 5px solid rgba(255, 255, 255, 0.473);
+                }
+                .small_window2{                            
+                    width: 40px; height: 40px;
+                    outline-style: groove;
+                    outline-color: white;
+                    outline-width: 2px;
+                    background: rgb(163, 159, 159);
+                    border: 5px solid rgba(255, 255, 255, 0.473);
+                }
+                .small_window3{                            
+                    width: 40px; height: 40px;
+                    outline-style: groove;
+                    outline-color: white;
+                    outline-width: 2px;
+                    background: rgb(163, 159, 159);
+                    border: 5px solid rgba(255, 255, 255, 0.473);
+                    position: relative;
+                    left: 50px; top: -50;
+                }
+            .window2{
+                width: 100px; height: 100px;
+                outline-style: groove;
+                outline-color: gray;
+                outline-width: 8px;
+                background: gray;
+                border: 5px solid rgba(255, 255, 255, 0.863); float: left;
+                position: relative;
+                top: 200px; left: 700px;
+            }
+            .roof{
+                width: 900px; height:60px;
+                background: #015f01;
+                transform: skewX(-60deg);
+                position: relative;
+                top: -300; left: 245;
+            }
+            .roof2{
+                width: 900px; height:60px;
+                background: #015f01;
+                transform: skewX(60deg);
+                position: relative;
+                top: -360; left: 450;
+            }
+            .back_roof{
+                width: 510px; height:80px;
+                background: rgb(9, 150, 9);
+                transform: skewX(-69deg);
+                position: relative;
+                top: -500; left: 400;
+            }
+            .back_roof2{
+                width: 500px; height:80px;
+                background: rgb(9, 150, 9);
+                transform: skewX(69deg);
+                position: relative;
+                top: -580; left: 695;
+            }
+            .leftdoorentrance{
+                width: 78px; height: 440px;
+                background: rgba(190, 39, 39, 0.87);
+                position: relative;
+                top: 60px; left: 340px;
+            }
+            .rightdoorentrance{
+                width: 78px; height: 440px;
+                background: rgba(190, 39, 39, 0.87);
+                position: relative;
+                top: 0px; left: 245px;
+            }
+            .topdoorentrance{
+                width: 160px; height: 40px;
+                background: rgb(110, 15, 15);
+                position: relative;
+                top: 0px; left: 245px;
+                transform: skewX(63deg);
+                position: relative;
+                top: -53px; left: -52px;
+            }
+            .topdoorentrance2{
+                width: 165px; height: 46px;
+                background: rgb(110, 15, 15);
+                position: relative;
+                top: 0px; left: 245px;
+                transform: skewX(-63deg);
+                position: relative;
+                top: -99px; left: 35px;
+            }
+            .door{
+                width: 140px; height: 320px;
+                outline-style: groove;
+                outline-color: gray;
+                outline-width: 8px;
+                background: rgb(255, 239, 22);
+                border: 5px solid rgba(255, 255, 255, 0.863); float: left;
+                position: relative;
+                top: -332px; left: 426px;
+            }
+            .doorhandel{
+                width: 10px; height: 10px; 
+                border-radius: 10px; 
+                background: black; 
+                border: 2px solid white; 
+                position: relative;
+                float: right; 
+                top: 80px; right: 10px;
+            }
+            .staresfirst1{
+                width: 130px; height: 12px;
+                background: rgb(139, 139, 139);
+                transform: skewX(-60deg);
+                position: relative;
+                top: 6px; left: 408px;
+            }
+            .staresfirst2{
+                width: 130px; height: 12px;
+                background: rgb(139, 139, 139);
+                transform: skewX(60deg);
+                position: relative;
+                top: -6px; left: 465px;
+            }
+            .staresfirst3{
+                width: 203px; height: 15px;
+                background: rgb(204, 195, 195);
+                position: relative;
+                top: -6px; left: 400px;
+            }
+            .staressecond1{
+                width: 150px; height: 12px;
+                background: rgb(139, 139, 139);
+                transform: skewX(-60deg);
+                position: relative;
+                top: -6px; left: 390px;
+            }
+            .staressecond2{
+                width: 150px; height: 12px;
+                background: rgb(139, 139, 139);
+                transform: skewX(60deg);
+                position: relative;
+                top: -18px; left: 465px;
+            }
+            .staressecond3{
+                width: 246px; height: 15px;
+                background: rgb(204, 195, 195);
+                position: relative;
+                top: -18px; left: 380px;
+            }
+            .tunnel1{
+                width: 40px;
+                height: 80px;
+                background: rgb(255, 0, 0);
+                border:3px solid black;
+                position: relative;
+                top: -720px; left: 550px;
+            }
+            .tunnel2{
+                width: 40px;
+                height: 80px;
+                background: rgb(255, 0, 0);
+                border:3px solid black;
+                position: relative;
+                top: -805px; left: 1000px;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="background">
+                <div class="window1">
+                    <div class="small_window1"></div>
+                    <div class="small_window2"></div>
+                    <div class="small_window3"></div>
+                </div>
+                <div class="window2">
+                    <div class="small_window1"></div>
+                    <div class="small_window2"></div>
+                    <div class="small_window3"></div>
+                </div>
+                <div class="leftdoorentrance">
+                <div class="rightdoorentrance"></div></div>
+                <div class="door">
+                    <div class="topdoorentrance"></div>
+                    <div class="topdoorentrance2"></div>
+                    <div class="doorhandel"></div>
+                </div>
+                <div class="staresfirst1"></div>
+                <div class="staresfirst2"></div>
+                <div class="staresfirst3"></div>
+                <div class="staressecond1"></div>
+                <div class="staressecond2"></div>
+                <div class="staressecond3"></div>
+            </div>
+
+            <div class="roof"></div>
+            <div class="roof2"></div>
+            <div class="back_roof"></div>
+            <div class="back_roof2"></div>
+            <div class="tunnel1"></div>
+            <div class="tunnel2"></div>
+    </body>
+</html>
